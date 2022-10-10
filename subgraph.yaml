@@ -3,7 +3,7 @@
 
 specVersion: 0.0.2
 description: Gravatar for Ethereum
-repository: https://github.com/Hacker-DAO/example-subgraph
+repository: https://github.com/0xMacro/subgraph_lecture
 schema:
   file: ./schema.graphql
 dataSources:

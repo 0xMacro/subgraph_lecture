@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "scripts": {
     "build-contract": "solc contracts/Gravity.sol --abi -o abis --overwrite && solc contracts/Gravity.sol --bin -o bin --overwrite",
-    "create": "graph create Hacker-DAO/subgraph_example --node https://api.thegraph.com/deploy/",
-    "create-local": "graph create Hacker-DAO/subgraph_example --node http://127.0.0.1:8020",
+    "create": "graph create 0xMacro/subgraph_lecture --node https://api.thegraph.com/deploy/",
+    "create-local": "graph create 0xMacro/subgraph_lecture --node http://127.0.0.1:8020",
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy Hacker-DAO/subgraph_example --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
-    "deploy-local": "graph deploy Hacker-DAO/subgraph_example --ipfs http://localhost:5001 --node http://127.0.0.1:8020"
+    "deploy": "graph deploy 0xMacro/subgraph_lecture --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
+    "deploy-local": "graph deploy 0xMacro/subgraph_lecture --ipfs http://localhost:5001 --node http://127.0.0.1:8020"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.23.2",
